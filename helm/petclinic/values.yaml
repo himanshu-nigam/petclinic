@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: cloudfreak/petclinic
+  repository: /hnigam420/gl
   tag: latest
   pullPolicy: IfNotPresent
 
