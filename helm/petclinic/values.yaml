@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: /hnigam420/gl
+  repository: /docker/hnigam420/gl
   
   pullPolicy: IfNotPresent
 
