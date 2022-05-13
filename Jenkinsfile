@@ -7,7 +7,7 @@ pipeline {
                         sh 'cp -R helm/* .'
 		        sh 'ls -ltr'
                         sh 'pwd'
-                        sh '/usr/local/bin/helm upgrade --install petclinic-app petclinic  --set image.repository=https://hub.docker.com/repository/docker/hnigam420/gl' 
+                        sh '/usr/local/bin/helm upgrade --install petclinic-app petclinic  --set image.repository=https://hub.docker.com/repository/hnigam420/gl --set image.tag=1' 
               			
             }           
         }
